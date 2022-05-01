@@ -1,6 +1,9 @@
+import AcreageLogo from "../components/molecules/AcreageLogo/AcreageLogo";
+
+
 const App: React.FC = () => {
   return (
-    <div></div>
+    <AcreageLogo />
   )
 }
 
