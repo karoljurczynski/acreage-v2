@@ -1,4 +1,4 @@
-interface WrapperProps {
+interface TileWrapperProps {
     color: string;
     clickable: boolean;
 }
@@ -11,7 +11,6 @@ interface TilePreset {
     [key: string]: TilePresetValue;
 }
 interface TilePresetValue {
-    as: 'a' | 'button' | 'div';
     color: string;
     clickable: boolean;
 }

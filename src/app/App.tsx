@@ -1,9 +1,9 @@
-import MainMenu from "../components/organisms/MainMenu/MainMenu";
+import MenuBar from "../components/organisms/MenuBar/MenuBar";
 
 
 const App: React.FC = () => {
   return (
-    <MainMenu />
+    <MenuBar />
   )
 }
 

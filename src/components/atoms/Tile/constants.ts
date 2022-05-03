@@ -7,7 +7,6 @@ export const TILE_TYPE = {
 
 export const TILE_PRESET: TilePreset = {
     [TILE_TYPE.MENU_ITEM]: {
-        as: 'a',
         color: COLORS.ORANGE,
         clickable: true
     }

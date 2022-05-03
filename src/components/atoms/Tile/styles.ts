@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import COLORS from "../../../tools/styles/colors";
 
-export const Wrapper = styled.div<WrapperProps>`
+export const Wrapper = styled.div<TileWrapperProps>`
 	width: 72px;
 	height: 72px;
 	display: flex;
@@ -13,11 +13,7 @@ export const Wrapper = styled.div<WrapperProps>`
 	background-color: ${props => props.color};
 
 	${props => props.clickable && `
-		:hover {
-			border: 3px solid ${props.color};
-			background-color: #fff;
-			cursor: pointer;
-		}
+		cursor: pointer;
 	`}
 `;
 export const TileIcon = styled.img`
