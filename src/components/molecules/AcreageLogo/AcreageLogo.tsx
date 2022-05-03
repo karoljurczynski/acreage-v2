@@ -1,13 +1,13 @@
-import FlexWrapper from "../../atoms/FlexWrapper/FlexWrapper.styles";
-import Logo        from "../../atoms/Logo/Logo";
+import { Wrapper, Title } from "./styles";
+import Logo               from "../../atoms/Logo/Logo";
 
 
 const AcreageLogo: React.FC = () => (
-  <FlexWrapper direction="column" align="center" justify="flex-start">
+  <Wrapper>
     <Logo />
-    {/* <Text>Acreage</Text> */}
-  </FlexWrapper>
-)
+    <Title as="h1">Acreage</Title>
+  </Wrapper>
+);
 
 
 export default AcreageLogo;

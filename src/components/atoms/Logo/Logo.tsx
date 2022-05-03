@@ -1,12 +1,12 @@
-import { LogoImage, LogoWrapper } from "./Logo.styles";
+import { LogoImage, Wrapper } from "./Logo.styles";
 import logo from "../../../images/logo.png";
 
 
 const Logo: React.FC = () => (
-  <LogoWrapper align="center" justify="center">
+  <Wrapper>
     <LogoImage src={logo} alt="Logo" />
-  </LogoWrapper>
-)
+  </Wrapper>
+);
 
 
 export default Logo;

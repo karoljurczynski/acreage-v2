@@ -1,13 +1,17 @@
 import styled from 'styled-components';
 
 
-/**
- * Simple, reusable text component
- */
-
-
-const Text = styled.p<TextProps>`
-	color: red;
+const Text = styled.p`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: fit-content;
+	font-family: 'Amaranth', Arial, sans-serif;
+	font-weight: 400;
+    font-style: normal;
+	line-height: normal;
+	color: '#000000';
 `;
 
 

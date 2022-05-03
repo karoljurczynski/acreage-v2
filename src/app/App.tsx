@@ -1,9 +1,9 @@
-import AcreageLogo from "../components/molecules/AcreageLogo/AcreageLogo";
+import MainMenu from "../components/organisms/MainMenu/MainMenu";
 
 
 const App: React.FC = () => {
   return (
-    <AcreageLogo />
+    <MainMenu />
   )
 }
 

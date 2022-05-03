@@ -1,8 +1,10 @@
-import styled 	   from "styled-components";
-import FlexWrapper from "../FlexWrapper/FlexWrapper.styles";
+import styled from "styled-components";
 
 
-export const LogoWrapper = styled(FlexWrapper)`
+export const Wrapper = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 96px;
 	height: 96px;
 	background-color: #FFB029;
