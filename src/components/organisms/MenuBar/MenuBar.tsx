@@ -1,7 +1,6 @@
-import Tile from "../../atoms/Tile/Tile";
 import { Wrapper } from "./styles";
-import { TILE_TYPE } from "../../atoms/Tile/constants";
 import Logo from "../../atoms/Logo/Logo";
+import About from "../../atoms/About/About";
 import MainMenu from "../../molecules/MainMenu/MainMenu";
 
 
@@ -10,6 +9,7 @@ const MenuBar: React.FC = () => {
 		<Wrapper>
 			<Logo />
 			<MainMenu />
+			<About />
 		</Wrapper>
 	)
 }

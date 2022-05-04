@@ -1,6 +1,8 @@
 interface TileWrapperProps {
     color: string;
     clickable: boolean;
+    tileSize: number;
+    iconSize: number;
 }
 interface TileProps {
     icon: string;
@@ -13,4 +15,6 @@ interface TilePreset {
 interface TilePresetValue {
     color: string;
     clickable: boolean;
+    tileSize: number;
+    iconSize: number;
 }

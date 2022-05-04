@@ -10,5 +10,5 @@ export const Wrapper = styled.div`
 	width: fit-content;
 	flex-direction: column;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: space-between;
 `;

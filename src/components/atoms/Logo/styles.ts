@@ -3,13 +3,14 @@ import COLORS from "../../../tools/styles/colors";
 import Text from "../../atoms/Text/Text.styles";
 
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.a`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
 	width: fit-content;
-	margin-bottom: 96px;
+	user-select: none;
+	cursor: pointer;
 `;
 
 export const LogoBackground = styled.div`
