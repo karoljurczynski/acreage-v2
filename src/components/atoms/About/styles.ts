@@ -16,7 +16,7 @@ export const InfoButton = styled.a`
   z-index: 1;
   transition: 0.2s ease;
 
-  :hover { transform: translateY(-8px) }
+  :hover { transform: translateY(-4px) }
 `;
 
 export const Version = styled(Text)`

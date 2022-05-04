@@ -1,9 +1,13 @@
 import MenuBar from "../components/organisms/MenuBar/MenuBar";
-
+import Toolbars from "../components/organisms/Toolbars/Toolbars";
+import { Wrapper } from "./App.styles";
 
 const App: React.FC = () => {
   return (
-    <MenuBar />
+    <Wrapper>
+      <MenuBar />
+      <Toolbars />
+    </Wrapper>
   )
 }
 

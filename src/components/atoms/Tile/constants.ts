@@ -3,7 +3,8 @@ import COLORS from "../../../tools/styles/colors"
 
 export const TILE_TYPE = {
     MENU_ITEM: 'menu-item',
-    INFO_BUTTON: 'info-button'
+    INFO_BUTTON: 'info-button',
+    TOOLBAR_BUTTON: 'toolbar-button'
 };
 
 export const TILE_PRESET: TilePreset = {
@@ -14,6 +15,12 @@ export const TILE_PRESET: TilePreset = {
         iconSize: 48
     },
     [TILE_TYPE.INFO_BUTTON]: {
+        color: COLORS.DARK_GRAY,
+        clickable: true,
+        tileSize: 48,
+        iconSize: 24
+    },
+    [TILE_TYPE.TOOLBAR_BUTTON]: {
         color: COLORS.DARK_GRAY,
         clickable: true,
         tileSize: 48,
